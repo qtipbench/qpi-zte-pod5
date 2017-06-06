@@ -1,0 +1,301 @@
+{
+  "details": {
+    "metrics": {
+      "arithmetic": {
+        "dhrystone_lps": [
+          "29908242.7"
+        ], 
+        "whetstone_MWIPS": [
+          "3752.2"
+        ]
+      }, 
+      "intmem": {
+        "triad": [
+          "10950.99"
+        ], 
+        "average": [
+          "10877.33"
+        ], 
+        "copy": [
+          "10743.05"
+        ], 
+        "add": [
+          "10892.09"
+        ], 
+        "scale": [
+          "10923.20"
+        ]
+      }, 
+      "ssl_aes": {
+        "aes_128_cbc_64_bytes": [
+          "557225.75k"
+        ], 
+        "aes_128_cbc_16_bytes": [
+          "504624.66k"
+        ], 
+        "aes_128_cbc_256_bytes": [
+          "568432.85k"
+        ], 
+        "aes_128_cbc_1024_bytes": [
+          "568345.60k"
+        ], 
+        "aes_128_cbc_8192_bytes": [
+          "575477.08k"
+        ]
+      }, 
+      "dpi_throughput": {
+        "dpi_pps": [
+          "1.27 M"
+        ], 
+        "dpi_bps": [
+          "11.94 G"
+        ]
+      }, 
+      "ssl_rsa": {
+        "rsa_sign_4096": [
+          "89.2"
+        ], 
+        "rsa_sign_2048": [
+          "652.0"
+        ], 
+        "rsa_verify_512": [
+          "195505.8"
+        ], 
+        "rsa_sign_1024": [
+          "3936.4"
+        ], 
+        "rsa_sign_512": [
+          "15698.3"
+        ], 
+        "rsa_verify_1024": [
+          "74761.7"
+        ], 
+        "rsa_verify_2048": [
+          "22437.3"
+        ], 
+        "rsa_verify_4096": [
+          "5960.2"
+        ]
+      }, 
+      "floatmem": {
+        "triad": [
+          "9036.77"
+        ], 
+        "average": [
+          "8121.28"
+        ], 
+        "copy": [
+          "7179.62"
+        ], 
+        "add": [
+          "9069.56"
+        ], 
+        "scale": [
+          "7199.16"
+        ]
+      }
+    }, 
+    "spec": "https://git.opnfv.org/qtip/tree/resources/QPI/compute.yaml", 
+    "baseline": "https://git.opnfv.org/qtip/tree/resources/QPI/compute-baseline.json"
+  }, 
+  "score": 1871, 
+  "children": [
+    {
+      "score": 0.86336524229948242, 
+      "children": [
+        {
+          "score": 0.76792926141759155, 
+          "children": [
+            {
+              "score": 0.95018461352218386, 
+              "name": "rsa_sign_512", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.87308250530311493, 
+              "name": "rsa_verify_512", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.6783867631851086, 
+              "name": "rsa_sign_1024", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.83986968488457003, 
+              "name": "rsa_verify_1024", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.52750809061488668, 
+              "name": "rsa_sign_2048", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.80364626240194847, 
+              "name": "rsa_verify_2048", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.7807017543859649, 
+              "name": "rsa_sign_4096", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.69005441704295478, 
+              "name": "rsa_verify_4096", 
+              "description": "workload"
+            }
+          ], 
+          "name": "ssl_rsa", 
+          "description": "metric"
+        }, 
+        {
+          "score": 0.95880122318137317, 
+          "children": [
+            {
+              "score": 0.92756547412684764, 
+              "name": "aes_128_cbc_16_bytes", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.96889220763763717, 
+              "name": "aes_128_cbc_64_bytes", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.96729218356688018, 
+              "name": "aes_128_cbc_256_bytes", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.95504986504596467, 
+              "name": "aes_128_cbc_1024_bytes", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.97520638552953676, 
+              "name": "aes_128_cbc_8192_bytes", 
+              "description": "workload"
+            }
+          ], 
+          "name": "ssl_aes", 
+          "description": "metric"
+        }
+      ], 
+      "name": "SSL", 
+      "description": "cryptography and SSL/TLS performance"
+    }, 
+    {
+      "score": 0.52539228892853251, 
+      "children": [
+        {
+          "score": 0.52539228892853251, 
+          "children": [
+            {
+              "score": 0.52479338842975209, 
+              "name": "dpi_pps", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.52599118942731282, 
+              "name": "dpi_bps", 
+              "description": "workload"
+            }
+          ], 
+          "name": "dpi_throughput", 
+          "description": "metric"
+        }
+      ], 
+      "name": "DPI", 
+      "description": "deep packet inspection"
+    }, 
+    {
+      "score": 0.88878541511765508, 
+      "children": [
+        {
+          "score": 0.88664918943978299, 
+          "children": [
+            {
+              "score": 0.88458149779735684, 
+              "name": "triad", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.89641197983591969, 
+              "name": "add", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.87891772771792365, 
+              "name": "copy", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.88668555240793201, 
+              "name": "scale", 
+              "description": "workload"
+            }
+          ], 
+          "name": "floatmem", 
+          "description": "metric"
+        }, 
+        {
+          "score": 0.89092164079552716, 
+          "children": [
+            {
+              "score": 0.90101209577882002, 
+              "name": "triad", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.88538449032677613, 
+              "name": "add", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.88100705264884371, 
+              "name": "copy", 
+              "description": "workload"
+            }, 
+            {
+              "score": 0.89628292442766888, 
+              "name": "scale", 
+              "description": "workload"
+            }
+          ], 
+          "name": "intmem", 
+          "description": "metric"
+        }
+      ], 
+      "name": "memory", 
+      "description": "cache and memory performance"
+    }, 
+    {
+      "score": 1.3777399414346212, 
+      "children": [
+        {
+          "score": 1.3777399414346212, 
+          "children": [
+            {
+              "score": 1.0312151769868894, 
+              "name": "dhrystone_lps", 
+              "description": "workload"
+            }, 
+            {
+              "score": 1.724264705882353, 
+              "name": "whetstone_MWIPS", 
+              "description": "workload"
+            }
+          ], 
+          "name": "arithmetic", 
+          "description": "metric"
+        }
+      ], 
+      "name": "arithmetic", 
+      "description": "arithmetic computing speed"
+    }
+  ], 
+  "name": "compute", 
+  "description": "QTIP Performance Index of compute"
+}

@@ -1,0 +1,18 @@
+System:    Host: overcloud-novacompute-1 Kernel: 3.10.0-514.10.2.el7.x86_64 x86_64 (64 bit) Console: tty
+           Distro: CentOS Linux release 7.3.1611 (Core)
+Machine:   Device: kvm System: Red Hat product: KVM v: RHEL 7.0.0 PC (i440FX + PIIX 1996)
+           Mobo: N/A model: N/A BIOS: Seabios v: 0.5.1 date: 01/01/2011
+CPU(s):    4 Single core Intel Xeon E5-2650 v3s (-SMP-) speed: 2294 MHz (max)
+Graphics:  Card: Cirrus Logic GD 5446
+           Display Server: N/A driver: N/A tty size: N/A Advanced Data: N/A out of X
+Network:   Card-1: Red Hat Virtio network device driver: virtio-pci
+           IF: eth0 state: up speed: N/A duplex: N/A mac: <filter>
+           Card-2: Red Hat Virtio network device driver: virtio-pci
+           IF: eth1 state: up speed: N/A duplex: N/A mac: <filter>
+           Card-3: Red Hat Virtio network device driver: virtio-pci
+           IF: eth2 state: up speed: N/A duplex: N/A mac: <filter>
+           Card-4: Red Hat Virtio network device driver: virtio-pci
+           IF: eth3 state: up speed: N/A duplex: N/A mac: <filter>
+Drives:    HDD Total Size: 44.0GB (26.7% used)
+Info:      Processes: 142 Uptime: 16 days Memory: 925.9/7822.8MB Init: systemd runlevel: 3
+           Client: Unknown python2.7 client inxi: 2.3.8

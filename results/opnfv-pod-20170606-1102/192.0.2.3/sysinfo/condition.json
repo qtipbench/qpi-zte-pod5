@@ -1,0 +1,23 @@
+{
+  "kernel": [
+    "3.10.0-514.10.2.el7.x86_64 x86_64 (64 bit)"
+  ], 
+  "product": [
+    "KVM"
+  ], 
+  "hostname": [
+    "overcloud-novacompute-1"
+  ], 
+  "memory": [
+    "925.9/7822.8MB"
+  ], 
+  "disk": [
+    "44.0GB (26.7% used)"
+  ], 
+  "os": [
+    "CentOS Linux release 7.3.1611 (Core)"
+  ], 
+  "cpu": [
+    "4 Single core Intel Xeon E5-2650 v3s (-SMP-)"
+  ]
+}

@@ -1,0 +1,9 @@
+OpenSSL 1.0.1e-fips 11 Feb 2013
+built on: Mon Feb 20 14:38:48 UTC 2017
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -DTERMIO -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,--noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+                  sign    verify    sign/s verify/s
+rsa  512 bits 0.000064s 0.000005s  15698.3 195505.8
+rsa 1024 bits 0.000254s 0.000013s   3936.4  74761.7
+rsa 2048 bits 0.001534s 0.000045s    652.0  22437.3
+rsa 4096 bits 0.011211s 0.000168s     89.2   5960.2

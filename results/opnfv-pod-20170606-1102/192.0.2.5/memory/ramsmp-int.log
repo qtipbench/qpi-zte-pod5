@@ -1,0 +1,52 @@
+RAMspeed/SMP (Linux) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 1 processes
+
+5-benchmark INTmem BatchRun mode
+
+Benchmark #1:
+INTEGER   Copy:      10737.67 MB/s
+INTEGER   Scale:     11162.57 MB/s
+INTEGER   Add:       7872.39 MB/s
+INTEGER   Triad:     11063.74 MB/s
+---
+INTEGER   AVERAGE:   10209.09 MB/s
+
+Benchmark #2:
+INTEGER   Copy:      11206.78 MB/s
+INTEGER   Scale:     11270.07 MB/s
+INTEGER   Add:       11395.78 MB/s
+INTEGER   Triad:     11308.70 MB/s
+---
+INTEGER   AVERAGE:   11295.33 MB/s
+
+Benchmark #3:
+INTEGER   Copy:      10861.00 MB/s
+INTEGER   Scale:     11022.01 MB/s
+INTEGER   Add:       11077.61 MB/s
+INTEGER   Triad:     11147.97 MB/s
+---
+INTEGER   AVERAGE:   11027.15 MB/s
+
+Benchmark #4:
+INTEGER   Copy:      7408.20 MB/s
+INTEGER   Scale:     10395.70 MB/s
+INTEGER   Add:       7492.33 MB/s
+INTEGER   Triad:     8688.35 MB/s
+---
+INTEGER   AVERAGE:   8496.14 MB/s
+
+Benchmark #5:
+INTEGER   Copy:      9913.84 MB/s
+INTEGER   Scale:     10825.12 MB/s
+INTEGER   Add:       11008.89 MB/s
+INTEGER   Triad:     8136.04 MB/s
+---
+INTEGER   AVERAGE:   9970.97 MB/s
+
+INTEGER BatchRun   Copy:      10025.50 MB/s
+INTEGER BatchRun   Scale:     10935.09 MB/s
+INTEGER BatchRun   Add:       9769.40 MB/s
+INTEGER BatchRun   Triad:     10068.96 MB/s
+---
+INTEGER BatchRun   AVERAGE:   10199.74 MB/s

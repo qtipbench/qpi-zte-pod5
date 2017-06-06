@@ -1,0 +1,20 @@
+{
+  "kernel": [
+    "3.10.0-514.10.2.el7.x86_64 x86_64 (64 bit)"
+  ], 
+  "product": [
+    "KVM"
+  ], 
+  "hostname": [
+    "overcloud-novacompute-0"
+  ], 
+  "memory": [
+    "939.0/7822.8MB"
+  ], 
+  "disk": [
+    "44.0GB (26.7% used)"
+  ], 
+  "os": [
+    "CentOS Linux release 7.3.1611 (Core)"
+  ]
+}
