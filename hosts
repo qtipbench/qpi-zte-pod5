@@ -1,8 +1,55 @@
+
 localhost   ansible_connection=local
 
-[SUT]
-# Add hosts in system under test, example::
-#
-#   host-under-test  ansible_host=192.168.10.1 ansible_port=5022 ansile_user=root
-#
-# See http://docs.ansible.com/ansible/intro_inventory.html for details
+[fuel-masters]
+fuel-pod5
+
+[SUT:children]   # system under test
+compute
+
+[node-groups:children]
+ceph-osd
+cluster-1
+compute
+congress
+controller
+hw-zte-servers
+mongo
+
+[node-groups:vars]
+ansible_ssh_common_args=-F ./ssh.cfg
+
+[ceph-osd]
+node-1
+node-4
+node-5
+
+[cluster-1]
+node-1
+node-2
+node-3
+node-4
+node-5
+
+[compute]
+node-1
+node-4
+
+[congress]
+node-2
+
+[controller]
+node-2
+node-3
+node-5
+
+[hw-zte-servers]
+node-1
+node-2
+node-3
+node-4
+node-5
+
+[mongo]
+node-3
+

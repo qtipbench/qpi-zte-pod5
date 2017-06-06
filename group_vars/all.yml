@@ -12,10 +12,10 @@ qtip_results: results
 qtip_fixtures: fixtures
 qtip_dump: dump
 qtip_cache: ".qtip-cache"
-qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170606-1343"
+qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170605-2141"
 
-installer_type: "manual"
-installer_host: "host-under-test"
+installer_type: "fuel"
+installer_host: "fuel-pod5"
 installer_group:
   manual: dummy-group
   fuel: fuel-masters

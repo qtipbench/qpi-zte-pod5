@@ -1,0 +1,23 @@
+{
+  "kernel": [
+    "4.4.0-78-generic x86_64 (64 bit)"
+  ], 
+  "product": [
+    "EC600G3"
+  ], 
+  "hostname": [
+    "node-1.zte.com.cn"
+  ], 
+  "memory": [
+    "3776.2/128524.0MB"
+  ], 
+  "disk": [
+    "1200.3GB (0.7% used)"
+  ], 
+  "os": [
+    "Ubuntu 16.04 xenial"
+  ], 
+  "cpu": [
+    "2 Deca core Intel Xeon E5-2650 v3s (-HT-MCP-SMP-)"
+  ]
+}

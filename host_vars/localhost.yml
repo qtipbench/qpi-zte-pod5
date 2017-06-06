@@ -12,5 +12,5 @@
 project_name: qtip
 case_name: "compute"
 pod_name: "opnfv-pod"
-scenario: "generic"
+opnfv_scenario: "generic"
 version: "master"

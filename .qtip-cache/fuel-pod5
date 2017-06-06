@@ -1,0 +1,90 @@
+{
+    "hosts": {
+        "ceph-osd": [
+            "node-5", 
+            "node-4", 
+            "node-1"
+        ], 
+        "cluster-1": [
+            "node-2", 
+            "node-5", 
+            "node-4", 
+            "node-3", 
+            "node-1"
+        ], 
+        "compute": [
+            "node-4", 
+            "node-1"
+        ], 
+        "congress": [
+            "node-2"
+        ], 
+        "controller": [
+            "node-2", 
+            "node-5", 
+            "node-3"
+        ], 
+        "hw-zte-servers": [
+            "node-2", 
+            "node-5", 
+            "node-4", 
+            "node-3", 
+            "node-1"
+        ], 
+        "mongo": [
+            "node-3"
+        ]
+    }, 
+    "hosts_meta": {
+        "node-1": {
+            "ansible_ssh_host": "10.20.5.13", 
+            "cluster": 1, 
+            "ip": "10.20.5.13", 
+            "mac": "74:4a:a4:01:72:b0", 
+            "name": "Untitled (72:b0)", 
+            "online": true, 
+            "os_platform": "ubuntu", 
+            "status": "ready"
+        }, 
+        "node-2": {
+            "ansible_ssh_host": "10.20.5.10", 
+            "cluster": 1, 
+            "ip": "10.20.5.10", 
+            "mac": "74:4a:a4:01:80:92", 
+            "name": "Untitled (80:92)", 
+            "online": true, 
+            "os_platform": "ubuntu", 
+            "status": "ready"
+        }, 
+        "node-3": {
+            "ansible_ssh_host": "10.20.5.11", 
+            "cluster": 1, 
+            "ip": "10.20.5.11", 
+            "mac": "74:4a:a4:01:82:54", 
+            "name": "Untitled (82:54)", 
+            "online": true, 
+            "os_platform": "ubuntu", 
+            "status": "ready"
+        }, 
+        "node-4": {
+            "ansible_ssh_host": "10.20.5.14", 
+            "cluster": 1, 
+            "ip": "10.20.5.14", 
+            "mac": "74:4a:a4:01:73:be", 
+            "name": "Untitled (73:be)", 
+            "online": true, 
+            "os_platform": "ubuntu", 
+            "status": "ready"
+        }, 
+        "node-5": {
+            "ansible_ssh_host": "10.20.5.12", 
+            "cluster": 1, 
+            "ip": "10.20.5.12", 
+            "mac": "74:4a:a4:01:73:4b", 
+            "name": "Untitled (73:4b)", 
+            "online": true, 
+            "os_platform": "ubuntu", 
+            "status": "ready"
+        }
+    }
+}
