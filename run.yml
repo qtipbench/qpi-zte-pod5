@@ -33,13 +33,13 @@
     - { role: nDPI, output: "{{ qtip_results }}/dpi", tags: [run, ndpi, dpi] }
     - { role: ramspeed, output: "{{ qtip_results }}/memory", tags: [run, ramspeed, memory] }
   # calculate scores
-    - { role: qtip, tasks: calculate, tags: [calculate] }
+  #  - { role: qtip, tasks: calculate, tags: [calculate] }
 
 
 - hosts: localhost
 
   roles:
   # aggregate results and produce report
-    - { role: qtip, tasks: aggregate, tags: [aggregate] }
+  #  - { role: qtip, tasks: aggregate, tags: [aggregate] }
   # publish results
-    - { role: opnfv-testapi, tasks: report, when: testapi_url is defined, tags: [report] }
+  #  - { role: opnfv-testapi, tasks: report, when: testapi_url is defined, tags: [report] }
