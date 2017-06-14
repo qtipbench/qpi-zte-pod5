@@ -11,6 +11,6 @@
 # testapi_url: http://localhost:8000/api/v1
 project_name: qtip
 case_name: "compute"
-pod_name: "opnfv"
+pod_name: "opnfv-pod"
 scenario: "generic"
 version: "master"

@@ -27,7 +27,7 @@
 
   roles:
   # run test and collect metrics
-    - { role: inxi, output: "{{ qtip_results }}/sysinfo", tags: [run, inxi, sysinfo] }
+  #  - { role: inxi, output: "{{ qtip_results }}/sysinfo", tags: [run, inxi, sysinfo] }
     - { role: unixbench, output: "{{ qtip_results }}/arithmetic", tags: [run, unixbench, arithmetic] }
     - { role: openssl, output: "{{ qtip_results }}/ssl", tags: [run, openssl, ssl] }
     - { role: nDPI, output: "{{ qtip_results }}/dpi", tags: [run, ndpi, dpi] }

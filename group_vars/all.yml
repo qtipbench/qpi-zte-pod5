@@ -12,7 +12,7 @@ qtip_results: results
 qtip_fixtures: fixtures
 qtip_dump: dump
 qtip_cache: ".qtip-cache"
-qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170614-1536"
+qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170614-1606"
 
 installer_type: "manual"
 installer_host: "localhost"
