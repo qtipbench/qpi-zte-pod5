@@ -7,15 +7,15 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
 
-qtip_resources: "/Users/yujunz/Develop/opnfv/qtip/qtip/cli/../../resources"
+qtip_resources: "/home/yujunz/qtip/qtip/cli/../../resources"
 qtip_results: results
 qtip_fixtures: fixtures
 qtip_dump: dump
 qtip_cache: ".qtip-cache"
-qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170606-1343"
+qtip_workdir: "{{ ansible_env.HOME }}/qtip-workdir-20170614-1536"
 
 installer_type: "manual"
-installer_host: "host-under-test"
+installer_host: "localhost"
 installer_group:
   manual: dummy-group
   fuel: fuel-masters
